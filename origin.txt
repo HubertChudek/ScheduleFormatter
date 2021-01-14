@@ -1,0 +1,172 @@
+Temat,Lokalizacja,Data rozpoczêcia,Czas rozpoczêcia,Data zakoñczenia,Czas zakoñczenia,Przypomnienie w³./wy³.,Data przypomnienia,Czas przypomnienia
+Podstawy bezpieczenstwa informacji (w) [1],,2020-10-02,08:00,2020-10-02,09:35,Fa³sz,2020-10-02,08:00
+Podstawy bezpieczenstwa informacji (w) [2],,2020-10-02,09:50,2020-10-02,11:25,Fa³sz,2020-10-02,09:50
+Wprowadzenie do inzynierii systemow (w) [1],,2020-10-02,13:30,2020-10-02,15:05,Fa³sz,2020-10-02,13:30
+Programowanie w jezykach funkcyjnych (w) [1],,2020-10-02,15:45,2020-10-02,17:20,Fa³sz,2020-10-02,15:45
+Jezyk angielski (c) [1],,2020-10-06,11:40,2020-10-06,13:15,Fa³sz,2020-10-06,11:40
+Jezyk obcy (II) miedzywydzialowy (c) [1],127 K,2020-10-08,15:45,2020-10-08,17:20,Fa³sz,2020-10-08,15:45
+Wprowadzenie do inzynierii systemow (w) [2],,2020-10-09,13:30,2020-10-09,15:05,Fa³sz,2020-10-09,13:30
+Programowanie w jezykach funkcyjnych (w) [2],,2020-10-09,15:45,2020-10-09,17:20,Fa³sz,2020-10-09,15:45
+Historia Polski - wybrane aspekty I (w) [1],,2020-10-12,11:40,2020-10-12,13:15,Fa³sz,2020-10-12,11:40
+Historia Polski - wybrane aspekty I (w) [2],,2020-10-12,13:30,2020-10-12,15:05,Fa³sz,2020-10-12,13:30
+Jezyk angielski (c) [2],,2020-10-13,11:40,2020-10-13,13:15,Fa³sz,2020-10-13,11:40
+Historia Polski - wybrane aspekty I (w) [3],,2020-10-13,13:30,2020-10-13,15:05,Fa³sz,2020-10-13,13:30
+Historia Polski - wybrane aspekty I (w) [4],,2020-10-13,15:45,2020-10-13,17:20,Fa³sz,2020-10-13,15:45
+Systemy wejscia-wyjscia komputerow (Zp) [1],,2020-10-13,17:35,2020-10-13,19:10,Fa³sz,2020-10-13,17:35
+Niezawodnosc systemow komputerowych (w) [1],,2020-10-14,09:50,2020-10-14,11:25,Fa³sz,2020-10-14,09:50
+Niezawodnosc systemow komputerowych (w) [2],,2020-10-14,11:40,2020-10-14,13:15,Fa³sz,2020-10-14,11:40
+Jezyk obcy (II) miedzywydzialowy (c) [2],127 K,2020-10-15,15:45,2020-10-15,17:20,Fa³sz,2020-10-15,15:45
+Podstawy bezpieczenstwa informacji (w) [3],,2020-10-16,08:00,2020-10-16,09:35,Fa³sz,2020-10-16,08:00
+Podstawy bezpieczenstwa informacji (w) [4],,2020-10-16,09:50,2020-10-16,11:25,Fa³sz,2020-10-16,09:50
+Wprowadzenie do inzynierii systemow (w) [3],,2020-10-16,11:40,2020-10-16,13:15,Fa³sz,2020-10-16,11:40
+Wprowadzenie do inzynierii systemow (w) [4],,2020-10-16,13:30,2020-10-16,15:05,Fa³sz,2020-10-16,13:30
+Systemy pracy grupowej (w) [1],,2020-10-16,15:45,2020-10-16,17:20,Fa³sz,2020-10-16,15:45
+Systemy pracy grupowej (w) [2],,2020-10-16,17:35,2020-10-16,19:10,Fa³sz,2020-10-16,17:35
+Jezyk angielski (c) [3],,2020-10-20,11:40,2020-10-20,13:15,Fa³sz,2020-10-20,11:40
+Niezawodnosc systemow komputerowych (w) [3],,2020-10-21,08:00,2020-10-21,09:35,Fa³sz,2020-10-21,08:00
+Niezawodnosc systemow komputerowych (w) [4],,2020-10-21,09:50,2020-10-21,11:25,Fa³sz,2020-10-21,09:50
+Jezyk obcy (II) miedzywydzialowy (c) [3],127 K,2020-10-22,15:45,2020-10-22,17:20,Fa³sz,2020-10-22,15:45
+Programowanie w jezykach funkcyjnych (w) [3],,2020-10-23,11:40,2020-10-23,13:15,Fa³sz,2020-10-23,11:40
+Wprowadzenie do inzynierii systemow (w) [5],,2020-10-23,13:30,2020-10-23,15:05,Fa³sz,2020-10-23,13:30
+Systemy pracy grupowej (w) [3],,2020-10-23,15:45,2020-10-23,17:20,Fa³sz,2020-10-23,15:45
+Systemy pracy grupowej (w) [4],,2020-10-23,17:35,2020-10-23,19:10,Fa³sz,2020-10-23,17:35
+Historia Polski - wybrane aspekty I (w) [5],,2020-10-26,11:40,2020-10-26,13:15,Fa³sz,2020-10-26,11:40
+Historia Polski - wybrane aspekty I (w) [6],,2020-10-26,13:30,2020-10-26,15:05,Fa³sz,2020-10-26,13:30
+Jezyk angielski (c) [4],,2020-10-27,11:40,2020-10-27,13:15,Fa³sz,2020-10-27,11:40
+Niezawodnosc systemow komputerowych (w) [5],,2020-10-28,09:50,2020-10-28,11:25,Fa³sz,2020-10-28,09:50
+Niezawodnosc systemow komputerowych (w) [6],,2020-10-28,11:40,2020-10-28,13:15,Fa³sz,2020-10-28,11:40
+Spotkanie organizacyjne z opiekunem roku (SO) [1],,2020-10-28,15:45,2020-10-28,17:20,Fa³sz,2020-10-28,15:45
+Jezyk obcy (II) miedzywydzialowy (c) [4],127 K,2020-10-29,15:45,2020-10-29,17:20,Fa³sz,2020-10-29,15:45
+Podstawy bezpieczenstwa informacji (w) [5],,2020-10-30,08:00,2020-10-30,09:35,Fa³sz,2020-10-30,08:00
+Podstawy bezpieczenstwa informacji (w) [6],,2020-10-30,09:50,2020-10-30,11:25,Fa³sz,2020-10-30,09:50
+Programowanie w jezykach funkcyjnych (w) [4],,2020-10-30,11:40,2020-10-30,13:15,Fa³sz,2020-10-30,11:40
+Wprowadzenie do inzynierii systemow (w) [6],,2020-10-30,13:30,2020-10-30,15:05,Fa³sz,2020-10-30,13:30
+Systemy pracy grupowej (w) [5],,2020-10-30,15:45,2020-10-30,17:20,Fa³sz,2020-10-30,15:45
+Systemy pracy grupowej (w) [6],,2020-10-30,17:35,2020-10-30,19:10,Fa³sz,2020-10-30,17:35
+Wprowadzenie do inzynierii systemow (c) [1],,2020-11-02,13:30,2020-11-02,15:05,Fa³sz,2020-11-02,13:30
+Historia Polski - wybrane aspekty I (c) [1],,2020-11-03,08:00,2020-11-03,09:35,Fa³sz,2020-11-03,08:00
+Jezyk angielski (c) [5],,2020-11-03,11:40,2020-11-03,13:15,Fa³sz,2020-11-03,11:40
+Niezawodnosc systemow komputerowych (w) [7],,2020-11-04,11:40,2020-11-04,13:15,Fa³sz,2020-11-04,11:40
+Niezawodnosc systemow komputerowych (c) [1],,2020-11-05,09:50,2020-11-05,11:25,Fa³sz,2020-11-05,09:50
+Jezyk obcy (II) miedzywydzialowy (c) [5],127 K,2020-11-05,15:45,2020-11-05,17:20,Fa³sz,2020-11-05,15:45
+Programowanie w jezykach funkcyjnych (w) [5],,2020-11-06,11:40,2020-11-06,13:15,Fa³sz,2020-11-06,11:40
+Wprowadzenie do inzynierii systemow (w) [7],,2020-11-06,13:30,2020-11-06,15:05,Fa³sz,2020-11-06,13:30
+Jezyk angielski (c) [6],,2020-11-10,11:40,2020-11-10,13:15,Fa³sz,2020-11-10,11:40
+Wprowadzenie do inzynierii systemow (c) [2],,2020-11-10,13:30,2020-11-10,15:05,Fa³sz,2020-11-10,13:30
+Niezawodnosc systemow komputerowych (c) [2],,2020-11-12,09:50,2020-11-12,11:25,Fa³sz,2020-11-12,09:50
+Jezyk obcy (II) miedzywydzialowy (c) [6],127 K,2020-11-12,15:45,2020-11-12,17:20,Fa³sz,2020-11-12,15:45
+Programowanie w jezykach funkcyjnych (L) [1],,2020-11-12,17:35,2020-11-12,19:10,Fa³sz,2020-11-12,17:35
+Programowanie w jezykach funkcyjnych (L) [2],,2020-11-12,19:25,2020-11-12,21:00,Fa³sz,2020-11-12,19:25
+Podstawy bezpieczenstwa informacji (w) [7],,2020-11-13,08:00,2020-11-13,09:35,Fa³sz,2020-11-13,08:00
+Podstawy bezpieczenstwa informacji (w) [8],,2020-11-13,09:50,2020-11-13,11:25,Fa³sz,2020-11-13,09:50
+Programowanie w jezykach funkcyjnych (w) [6],,2020-11-13,11:40,2020-11-13,13:15,Fa³sz,2020-11-13,11:40
+Wprowadzenie do inzynierii systemow (w) [8],,2020-11-13,13:30,2020-11-13,15:05,Fa³sz,2020-11-13,13:30
+Niezawodnosc systemow komputerowych (c) [3],,2020-11-16,08:00,2020-11-16,09:35,Fa³sz,2020-11-16,08:00
+Wprowadzenie do inzynierii systemow (c) [3],,2020-11-16,15:45,2020-11-16,17:20,Fa³sz,2020-11-16,15:45
+Jezyk angielski (c) [7],,2020-11-17,11:40,2020-11-17,13:15,Fa³sz,2020-11-17,11:40
+Metody programowania .NET (w) [1],,2020-11-18,13:30,2020-11-18,15:05,Fa³sz,2020-11-18,13:30
+Metody programowania .NET (w) [2],,2020-11-18,15:45,2020-11-18,17:20,Fa³sz,2020-11-18,15:45
+Podstawy bezpieczenstwa informacji (L) [1],,2020-11-19,08:00,2020-11-19,09:35,Fa³sz,2020-11-19,08:00
+Podstawy bezpieczenstwa informacji (L) [2],,2020-11-19,09:50,2020-11-19,11:25,Fa³sz,2020-11-19,09:50
+Jezyk obcy (II) miedzywydzialowy (c) [7],127 K,2020-11-19,15:45,2020-11-19,17:20,Fa³sz,2020-11-19,15:45
+Programowanie w jezykach funkcyjnych (w) [7],,2020-11-20,11:40,2020-11-20,13:15,Fa³sz,2020-11-20,11:40
+Niezawodnosc systemow komputerowych (c) [4],,2020-11-23,08:00,2020-11-23,09:35,Fa³sz,2020-11-23,08:00
+Wprowadzenie do inzynierii systemow (c) [4],,2020-11-23,11:40,2020-11-23,13:15,Fa³sz,2020-11-23,11:40
+Metody programowania .NET (L) [1],,2020-11-23,15:45,2020-11-23,17:20,Fa³sz,2020-11-23,15:45
+Metody programowania .NET (L) [2],,2020-11-23,17:35,2020-11-23,19:10,Fa³sz,2020-11-23,17:35
+Metody programowania .NET (L) [3],,2020-11-23,19:25,2020-11-23,21:00,Fa³sz,2020-11-23,19:25
+Historia Polski - wybrane aspekty I (c) [2],,2020-11-24,08:00,2020-11-24,09:35,Fa³sz,2020-11-24,08:00
+Jezyk angielski (c) [8],,2020-11-24,11:40,2020-11-24,13:15,Fa³sz,2020-11-24,11:40
+Systemy pracy grupowej (L) [1],,2020-11-24,15:45,2020-11-24,17:20,Fa³sz,2020-11-24,15:45
+Systemy pracy grupowej (L) [2],,2020-11-24,17:35,2020-11-24,19:10,Fa³sz,2020-11-24,17:35
+Metody programowania .NET (w) [3],,2020-11-25,13:30,2020-11-25,15:05,Fa³sz,2020-11-25,13:30
+Metody programowania .NET (w) [4],,2020-11-25,15:45,2020-11-25,17:20,Fa³sz,2020-11-25,15:45
+Jezyk obcy (II) miedzywydzialowy (c) [8],127 K,2020-11-26,15:45,2020-11-26,17:20,Fa³sz,2020-11-26,15:45
+Programowanie w jezykach funkcyjnych (L) [3],,2020-11-26,17:35,2020-11-26,19:10,Fa³sz,2020-11-26,17:35
+Programowanie w jezykach funkcyjnych (L) [4],,2020-11-26,19:25,2020-11-26,21:00,Fa³sz,2020-11-26,19:25
+Niezawodnosc systemow komputerowych (c) [5],,2020-11-30,08:00,2020-11-30,09:35,Fa³sz,2020-11-30,08:00
+Historia Polski - wybrane aspekty I (w) [7],,2020-12-01,08:00,2020-12-01,09:35,Fa³sz,2020-12-01,08:00
+Historia Polski - wybrane aspekty I (w) [8],,2020-12-01,09:50,2020-12-01,11:25,Fa³sz,2020-12-01,09:50
+Jezyk angielski (c) [9],,2020-12-01,11:40,2020-12-01,13:15,Fa³sz,2020-12-01,11:40
+Programowanie wspolbiezne (Zp) [1],,2020-12-01,19:25,2020-12-01,21:00,Fa³sz,2020-12-01,19:25
+Podstawy bezpieczenstwa informacji (L) [3],,2020-12-02,11:40,2020-12-02,13:15,Fa³sz,2020-12-02,11:40
+Podstawy bezpieczenstwa informacji (L) [4],,2020-12-02,13:30,2020-12-02,15:05,Fa³sz,2020-12-02,13:30
+Jezyk obcy (II) miedzywydzialowy (c) [9],127 K,2020-12-03,15:45,2020-12-03,17:20,Fa³sz,2020-12-03,15:45
+Podstawy bezpieczenstwa informacji (w) [9],,2020-12-04,08:00,2020-12-04,09:35,Fa³sz,2020-12-04,08:00
+Podstawy bezpieczenstwa informacji (w) [10],,2020-12-04,09:50,2020-12-04,11:25,Fa³sz,2020-12-04,09:50
+Modelowanie i implementacja procesow biznesowych (w) [1],,2020-12-04,11:40,2020-12-04,13:15,Fa³sz,2020-12-04,11:40
+Modelowanie i implementacja procesow biznesowych (w) [2],,2020-12-04,13:30,2020-12-04,15:05,Fa³sz,2020-12-04,13:30
+Podstawy symulacji (w) [1],,2020-12-04,15:45,2020-12-04,17:20,Fa³sz,2020-12-04,15:45
+Podstawy symulacji (w) [2],,2020-12-07,08:00,2020-12-07,09:35,Fa³sz,2020-12-07,08:00
+Modelowanie i implementacja procesow biznesowych (w) [3],,2020-12-07,11:40,2020-12-07,13:15,Fa³sz,2020-12-07,11:40
+Modelowanie i implementacja procesow biznesowych (w) [4],,2020-12-07,13:30,2020-12-07,15:05,Fa³sz,2020-12-07,13:30
+Historia Polski - wybrane aspekty I (w) [9],,2020-12-07,15:45,2020-12-07,17:20,Fa³sz,2020-12-07,15:45
+Historia Polski - wybrane aspekty I (w) [10],,2020-12-07,17:35,2020-12-07,19:10,Fa³sz,2020-12-07,17:35
+Jezyk angielski (c) [10],,2020-12-08,11:40,2020-12-08,13:15,Fa³sz,2020-12-08,11:40
+Systemy pracy grupowej (L) [3],,2020-12-08,15:45,2020-12-08,17:20,Fa³sz,2020-12-08,15:45
+Systemy pracy grupowej (L) [4],,2020-12-08,17:35,2020-12-08,19:10,Fa³sz,2020-12-08,17:35
+Metody programowania .NET (w) [5],,2020-12-09,15:45,2020-12-09,17:20,Fa³sz,2020-12-09,15:45
+Niezawodnosc systemow komputerowych (c) [6],,2020-12-10,11:40,2020-12-10,13:15,Fa³sz,2020-12-10,11:40
+Wprowadzenie do inzynierii systemow (c) [5],,2020-12-10,13:30,2020-12-10,15:05,Fa³sz,2020-12-10,13:30
+Jezyk obcy (II) miedzywydzialowy (c) [10],127 K,2020-12-10,15:45,2020-12-10,17:20,Fa³sz,2020-12-10,15:45
+Programowanie w jezykach funkcyjnych (L) [5],,2020-12-10,17:35,2020-12-10,19:10,Fa³sz,2020-12-10,17:35
+Programowanie w jezykach funkcyjnych (L) [6],,2020-12-10,19:25,2020-12-10,21:00,Fa³sz,2020-12-10,19:25
+Podstawy symulacji (w) [3],,2020-12-11,09:50,2020-12-11,11:25,Fa³sz,2020-12-11,09:50
+Podstawy symulacji (w) [4],,2020-12-11,11:40,2020-12-11,13:15,Fa³sz,2020-12-11,11:40
+Niezawodnosc systemow komputerowych (c) [7],,2020-12-14,08:00,2020-12-14,09:35,Fa³sz,2020-12-14,08:00
+Historia Polski - wybrane aspekty I (c) [3],,2020-12-14,09:50,2020-12-14,11:25,Fa³sz,2020-12-14,09:50
+Modelowanie i implementacja procesow biznesowych (w) [5],,2020-12-14,11:40,2020-12-14,13:15,Fa³sz,2020-12-14,11:40
+Modelowanie i implementacja procesow biznesowych (w) [6],,2020-12-14,13:30,2020-12-14,15:05,Fa³sz,2020-12-14,13:30
+Historia Polski - wybrane aspekty I (w) [11],,2020-12-14,15:45,2020-12-14,17:20,Fa³sz,2020-12-14,15:45
+Historia Polski - wybrane aspekty I (w) [12],,2020-12-14,17:35,2020-12-14,19:10,Fa³sz,2020-12-14,17:35
+Jezyk angielski (c) [11],,2020-12-15,11:40,2020-12-15,13:15,Fa³sz,2020-12-15,11:40
+Podstawy symulacji (L) [1],,2020-12-15,13:30,2020-12-15,15:05,Fa³sz,2020-12-15,13:30
+Podstawy symulacji (L) [2],,2020-12-15,15:45,2020-12-15,17:20,Fa³sz,2020-12-15,15:45
+Modelowanie i implementacja procesow biznesowych (L) [1],,2020-12-16,09:50,2020-12-16,11:25,Fa³sz,2020-12-16,09:50
+Modelowanie i implementacja procesow biznesowych (L) [2],,2020-12-16,11:40,2020-12-16,13:15,Fa³sz,2020-12-16,11:40
+Metody programowania .NET (w) [6],,2020-12-16,13:30,2020-12-16,15:05,Fa³sz,2020-12-16,13:30
+Metody programowania .NET (w) [7],,2020-12-16,15:45,2020-12-16,17:20,Fa³sz,2020-12-16,15:45
+Metody programowania .NET (L) [4],,2020-12-16,17:35,2020-12-16,19:10,Fa³sz,2020-12-16,17:35
+Metody programowania .NET (L) [5],,2020-12-16,19:25,2020-12-16,21:00,Fa³sz,2020-12-16,19:25
+Wprowadzenie do inzynierii systemow (c) [6],,2020-12-17,11:40,2020-12-17,13:15,Fa³sz,2020-12-17,11:40
+Jezyk obcy (II) miedzywydzialowy (c) [11],127 K,2020-12-17,15:45,2020-12-17,17:20,Fa³sz,2020-12-17,15:45
+Wprowadzenie do inzynierii systemow (c) [7],,2020-12-21,11:40,2020-12-21,13:15,Fa³sz,2020-12-21,11:40
+Jezyk angielski (c) [12],,2020-12-22,11:40,2020-12-22,13:15,Fa³sz,2020-12-22,11:40
+Podstawy symulacji (L) [3],,2020-12-22,13:30,2020-12-22,15:05,Fa³sz,2020-12-22,13:30
+Podstawy symulacji (L) [4],,2020-12-22,15:45,2020-12-22,17:20,Fa³sz,2020-12-22,15:45
+Modelowanie i implementacja procesow biznesowych (L) [3],,2020-12-23,09:50,2020-12-23,11:25,Fa³sz,2020-12-23,09:50
+Modelowanie i implementacja procesow biznesowych (L) [4],,2020-12-23,11:40,2020-12-23,13:15,Fa³sz,2020-12-23,11:40
+Jezyk obcy (II) miedzywydzialowy (c) [12],127 K,2021-01-07,15:45,2021-01-07,17:20,Fa³sz,2021-01-07,15:45
+Podstawy symulacji (L) [5],,2021-01-08,15:45,2021-01-08,17:20,Fa³sz,2021-01-08,15:45
+Podstawy symulacji (L) [6],,2021-01-08,17:35,2021-01-08,19:10,Fa³sz,2021-01-08,17:35
+Modelowanie i implementacja procesow biznesowych (L) [5],,2021-01-11,08:00,2021-01-11,09:35,Fa³sz,2021-01-11,08:00
+Modelowanie i implementacja procesow biznesowych (L) [6],,2021-01-11,09:50,2021-01-11,11:25,Fa³sz,2021-01-11,09:50
+Metody programowania .NET (L) [6],,2021-01-11,15:45,2021-01-11,17:20,Fa³sz,2021-01-11,15:45
+Metody programowania .NET (L) [7],,2021-01-11,17:35,2021-01-11,19:10,Fa³sz,2021-01-11,17:35
+Jezyk angielski (c) [13],,2021-01-12,11:40,2021-01-12,13:15,Fa³sz,2021-01-12,11:40
+Modelowanie i implementacja procesow biznesowych (w) [7],,2021-01-12,19:25,2021-01-12,21:00,Fa³sz,2021-01-12,19:25
+Niezawodnosc systemow komputerowych (c) [8],314 S,2021-01-13,09:50,2021-01-13,11:25,Fa³sz,2021-01-13,09:50
+Jezyk obcy (II) miedzywydzialowy (c) [13],127 K,2021-01-14,15:45,2021-01-14,17:20,Fa³sz,2021-01-14,15:45
+Podstawy symulacji (L) [7],,2021-01-15,15:45,2021-01-15,17:20,Fa³sz,2021-01-15,15:45
+Podstawy symulacji (L) [8],,2021-01-15,17:35,2021-01-15,19:10,Fa³sz,2021-01-15,17:35
+Podstawy symulacji (w) [5],,2021-01-15,19:25,2021-01-15,21:00,Fa³sz,2021-01-15,19:25
+Modelowanie i implementacja procesow biznesowych (L) [7],,2021-01-18,08:00,2021-01-18,09:35,Fa³sz,2021-01-18,08:00
+Modelowanie i implementacja procesow biznesowych (L) [8],,2021-01-18,09:50,2021-01-18,11:25,Fa³sz,2021-01-18,09:50
+Jezyk angielski (c) [14],,2021-01-19,11:40,2021-01-19,13:15,Fa³sz,2021-01-19,11:40
+Systemy pracy grupowej (L) [5],,2021-01-19,15:45,2021-01-19,17:20,Fa³sz,2021-01-19,15:45
+Systemy pracy grupowej (L) [6],,2021-01-19,17:35,2021-01-19,19:10,Fa³sz,2021-01-19,17:35
+Jezyk obcy (II) miedzywydzialowy (c) [14],127 K,2021-01-21,15:45,2021-01-21,17:20,Fa³sz,2021-01-21,15:45
+Podstawy bezpieczenstwa informacji (L) [5],,2021-01-22,11:40,2021-01-22,13:15,Fa³sz,2021-01-22,11:40
+Podstawy symulacji (L) [9],,2021-01-22,13:30,2021-01-22,15:05,Fa³sz,2021-01-22,13:30
+Podstawy symulacji (L) [10],,2021-01-22,15:45,2021-01-22,17:20,Fa³sz,2021-01-22,15:45
+Modelowanie i implementacja procesow biznesowych (L) [9],,2021-01-25,08:00,2021-01-25,09:35,Fa³sz,2021-01-25,08:00
+Modelowanie i implementacja procesow biznesowych (L) [10],,2021-01-25,09:50,2021-01-25,11:25,Fa³sz,2021-01-25,09:50
+Jezyk angielski (c) [15],,2021-01-26,11:40,2021-01-26,13:15,Fa³sz,2021-01-26,11:40
+Metody programowania .NET (L) [8],,2021-01-26,15:45,2021-01-26,17:20,Fa³sz,2021-01-26,15:45
+Programowanie w jezykach funkcyjnych (L) [7],,2021-01-26,17:35,2021-01-26,19:10,Fa³sz,2021-01-26,17:35
+Programowanie w jezykach funkcyjnych (L) [8],,2021-01-26,19:25,2021-01-26,21:00,Fa³sz,2021-01-26,19:25
+Jezyk obcy (II) miedzywydzialowy (c) [15],127 K,2021-01-28,15:45,2021-01-28,17:20,Fa³sz,2021-01-28,15:45
+Systemy pracy grupowej (L) [7],,2021-01-28,17:35,2021-01-28,19:10,Fa³sz,2021-01-28,17:35
+Systemy pracy grupowej (L) [8],,2021-01-28,19:25,2021-01-28,21:00,Fa³sz,2021-01-28,19:25
+Systemy pracy grupowej (w) [7],,2021-01-29,09:50,2021-01-29,11:25,Fa³sz,2021-01-29,09:50
+Niezawodnosc systemow komputerowych (w) [8],,2021-02-01,08:00,2021-02-01,09:35,Fa³sz,2021-02-01,08:00

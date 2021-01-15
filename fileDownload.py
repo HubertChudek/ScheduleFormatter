@@ -1,6 +1,7 @@
 import os
 
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.options import Options
 from time import sleep
 from credentials import user, password
@@ -17,9 +18,7 @@ class FileDownloader:
             "download.directory_upgrade": True,
             "safebrowsing.enabled": True
         })
-        # self.options.add_argument("--window-size=100,100")
-        self.options.add_argument("--headless");
-        # self.options.add_argument("--no-startup-window")
+        #self.options.add_argument("--headless");
         self.driver = webdriver.Chrome(chrome_options=self.options)
 
     def goTo(self, url):
@@ -39,10 +38,22 @@ class FileDownloader:
             "/html/body/table[1]/tbody/tr/td/table[2]/tbody/tr/td/div/table[@class=\'tableInChaLog\']/tbody/tr/td[1]/table[@class=\'tableChaLog\'][2]/tbody/tr[6]/td[@class=\'tdChaLog\']/input[@class=\'inputLogL\']")
         login_btn.click()
 
+        #Rozkład zajęć
+        element_to_hover_over = self.driver.find_element_by_xpath(
+            "/html/body/table/tbody/tr/td/table[2]/tbody/tr/td/div/table/tbody/tr/td[2]/span[2]")
+        hover = ActionChains(self.driver).move_to_element(element_to_hover_over)
+        hover.perform()
+
+        #Mój rozkład zajęć
+        element_to_hover_over = self.driver.find_element_by_xpath(
+            "/html/body/table/tbody/tr/td/table[2]/tbody/tr/td/div/div[2]/table/tbody/tr[1]/td[2]")
+        hover = ActionChains(self.driver).move_to_element(element_to_hover_over)
+        hover.perform()
+
         letni_btn = self.driver.find_element_by_xpath(
-            "/html/body[@class='bodyWithSkeleton']/table/tbody/tr/td/table[3]/tbody/tr/td[2]/div/table[1]/tbody/tr/td[1]/nobr/table/tbody/tr/td/nobr/a[@class='yel']/b")
+            "/html/body/table/tbody/tr/td/table[2]/tbody/tr/td/div/div[3]/table/tbody/tr[2]/td[2]")
         zimowy_btn = self.driver.find_element_by_xpath(
-            "/html/body[@class='bodyWithSkeleton']/table/tbody/tr/td/table[3]/tbody/tr/td[2]/div/table[1]/tbody/tr/td[1]/nobr/table/tbody/tr/td/nobr/a[@class='whit']/b")
+            "/html/body/table/tbody/tr/td/table[2]/tbody/tr/td/div/div[3]/table/tbody/tr[3]/td[2]")
 
         month = datetime.now().month
         if ((month <= 3 & month > 0) | (month >= 9 & month <= 12)):

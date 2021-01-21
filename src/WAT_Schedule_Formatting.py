@@ -12,9 +12,13 @@ print("Pobieranie pliku...")
 fileDownloader.go_to('https://s1.wcy.wat.edu.pl/ed1/')
 fileDownloader.download()
 
-os.remove(filename)
-oldFileName = max([f for f in os.listdir()], key=os.path.getctime)
-os.rename(oldFileName, filename)
+try:
+    os.remove(filename)
+except FileNotFoundError:
+    print()
+finally:
+    oldFileName = max([f for f in os.listdir()], key=os.path.getctime)
+    os.rename(oldFileName, filename)
 # endregion
 print("Pobrano plik.")
 

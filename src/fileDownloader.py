@@ -10,7 +10,6 @@ class FileDownloader:
     options = Options()
 
     def __init__(self, download_directory):
-        print(download_directory)
         self.options.add_experimental_option("prefs", {
             "download.default_directory": download_directory,
             "download.prompt_for_download": False,

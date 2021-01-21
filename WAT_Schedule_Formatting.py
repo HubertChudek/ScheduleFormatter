@@ -25,8 +25,8 @@ print("Filtrowanie pliku pod kątem pól powodującyh problemy...")
 print("Formatowanie pliku...")
 original = pd.read_csv(filename, encoding="ISO-8859-1")
 
-modified = pd.DataFrame;
-temp = pd.DataFrame;
+modified = pd.DataFrame
+temp = pd.DataFrame
 
 # wycinanie potrzebnych kolumn
 modified = original.loc[:,

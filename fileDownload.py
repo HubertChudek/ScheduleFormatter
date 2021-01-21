@@ -65,6 +65,7 @@ class FileDownloader:
             "/html/body/table/tbody/tr/td/table[3]/tbody/tr/td[1]/table/tbody/tr[15]/td/a/img")
         download_btn.click()
         sleep(1)
+
         self.driver.quit()
 
     def quit(self):

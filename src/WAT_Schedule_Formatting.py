@@ -1,7 +1,5 @@
 import pandas as pd
-import fileChecker as fch
-import fileDownload as fdw
-import FileFormatter as fileForm
+from src import FileFormatter as fileForm, fileDownload as fdw
 import os
 import shutil
 
@@ -9,14 +7,16 @@ filename = 'origin.txt'
 
 #region Pobieranie pliku i przygotowanie go w katalogu
 print("Otwieranie zautomatyzowanej przeglądarki...")
-fileDownloader = fdw.FileDownloader()
+#os.chdir("../")
+fileDownloader = fdw.FileDownloader(os.getcwd())
 print("Pobieranie pliku...")
 fileDownloader.goTo('https://s1.wcy.wat.edu.pl/ed1/')
 fileDownloader.download()
 
 os.remove(filename)
 oldFileName = max([f for f in os.listdir()], key=os.path.getctime)
-shutil.move(oldFileName, os.path.join(filename))
+#shutil.move(oldFileName, os.path.join(filename))
+os.rename(oldFileName, filename)
 #endregion
 print("Pobrano plik.")
 

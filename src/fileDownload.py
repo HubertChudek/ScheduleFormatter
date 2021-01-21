@@ -1,19 +1,19 @@
-import os
-
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.options import Options
 from time import sleep
-from credentials import user, password
+from src.credentials import user, password
 from datetime import datetime
 
 
 class FileDownloader:
     options = Options()
 
-    def __init__(self):
+    def __init__(self, download_directory):
+        print(download_directory)
         self.options.add_experimental_option("prefs", {
-            "download.default_directory": os.path.dirname(os.path.realpath(__file__)),
+            #"download.default_directory": os.path.dirname(os.path.realpath(__file__)),
+            "download.default_directory": download_directory,
             "download.prompt_for_download": False,
             "download.directory_upgrade": True,
             "safebrowsing.enabled": True

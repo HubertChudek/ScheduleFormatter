@@ -60,7 +60,12 @@ modified.columns = ['Subject', 'Location', 'Start date', 'Start time', 'End date
 
 # region Zapis wybranych wierszy do plików
 # zapis calosci do pliku
-modified.to_csv("Output_files\Wszystko.csv", index=False, encoding="ISO-8859-1")
+try:
+    modified.to_csv("Output_files\Wszystko.csv", index=False, encoding="ISO-8859-1")
+except FileNotFoundError:
+    os.mkdir("Output_files")
+    modified.to_csv("Output_files\Wszystko.csv", index=False, encoding="ISO-8859-1")
+
 temp = modified
 
 # usuwanie niepotrzebnych przedmiotów

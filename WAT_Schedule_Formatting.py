@@ -1,19 +1,21 @@
 import pandas as pd
-import fileChecker as fch, fileDownload as fdw
+import fileChecker as fch
+import fileDownload as fdw
+import FileFormatter as fileForm
 import os
 import shutil
 
 filename = 'origin.txt'
 
-print("Otwieranie zautomatyzowanej przeglądarki...")
-fileDownloader = fdw.FileDownloader()
-print("Pobieranie pliku...")
-fileDownloader.goTo('https://s1.wcy.wat.edu.pl/ed1/')
-fileDownloader.download()
+#print("Otwieranie zautomatyzowanej przeglądarki...")
+#fileDownloader = fdw.FileDownloader()
+#print("Pobieranie pliku...")
+#fileDownloader.goTo('https://s1.wcy.wat.edu.pl/ed1/')
+#fileDownloader.download()
 
-os.remove(filename)
-oldFileName = max([f for f in os.listdir()], key=os.path.getctime)
-shutil.move(oldFileName, os.path.join(filename))
+#os.remove(filename)
+#oldFileName = max([f for f in os.listdir()], key=os.path.getctime)
+#shutil.move(oldFileName, os.path.join(filename))
 
 print("Pobrano plik.")
 
@@ -36,13 +38,14 @@ modified = original.loc[:,
 # Y6 = Y6original.loc[:,['Temat','Lokalizacja','Data rozpoczêcia','Czas rozpoczêcia','Data zakoñczenia','Czas zakoñczenia']]
 # Y6 = Y6[Y6['Temat'].str.contains("In¿ynieria oprogramowania \(L\)")]
 
+file_formatter = fileForm.FileFormatter(modified)
+
 # zmiana formatu daty
-temp = modified['Data rozpoczêcia'].astype(str)
-temp = pd.to_datetime(temp).apply(lambda x: x.strftime('%m/%d/%Y'))
-modified['Data rozpoczêcia'] = temp
-temp = modified['Data zakoñczenia'].astype(str)
-temp = pd.to_datetime(temp).apply(lambda x: x.strftime('%m/%d/%Y'))
-modified['Data zakoñczenia'] = temp
+column_name = "Data rozpoczêcia"
+data_format_string = '%m/%d/%Y'
+modified[column_name] = file_formatter.format_data_collumn(column_name, data_format_string)
+column_name = "Data zakoñczenia"
+modified[column_name] = file_formatter.format_data_collumn(column_name, data_format_string)
 
 # zmiana formatu czasu
 temp = pd.to_datetime(modified['Czas rozpoczêcia'])

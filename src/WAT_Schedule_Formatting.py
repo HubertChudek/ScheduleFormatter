@@ -1,48 +1,42 @@
-import pandas as pd
-import FileFormatter as fileForm, fileDownload as fdw
 import os
-import shutil
+import pandas as pd
+import fileFormatter as fileForm
+import fileDownloader as fileDownload
 
 filename = 'origin.txt'
 
-#region Pobieranie pliku i przygotowanie go w katalogu
+# region Pobieranie pliku i przygotowanie go w katalogu
 print("Otwieranie zautomatyzowanej przeglądarki...")
-#os.chdir("../")
-fileDownloader = fdw.FileDownloader(os.getcwd())
+fileDownloader = fileDownload.FileDownloader(os.getcwd())
 print("Pobieranie pliku...")
-fileDownloader.goTo('https://s1.wcy.wat.edu.pl/ed1/')
+fileDownloader.go_to('https://s1.wcy.wat.edu.pl/ed1/')
 fileDownloader.download()
 
 os.remove(filename)
 oldFileName = max([f for f in os.listdir()], key=os.path.getctime)
-#shutil.move(oldFileName, os.path.join(filename))
 os.rename(oldFileName, filename)
-#endregion
+# endregion
 print("Pobrano plik.")
 
-#region Filtrowanie pól i ich zamiana
-#fileChecker = fch.fileChecker(filename)
+# region Filtrowanie pól i ich zamiana
+# fileChecker = fch.fileChecker(filename)
 # jesli trzeba dodaj wiecej podobnych linii wg wzoru nizej
 # fileChecker.replace(pattern RegEx, substitution RegEx)
-#endregion
+# endregion
 print("Przefiltrowano pola.")
 
 print("Formatowanie pliku...")
-#region Formatowanie pól wg wzorca dla kalendarza Google
+# region Formatowanie pól wg wzorca dla kalendarza Google
 original = pd.read_csv(filename, encoding="ISO-8859-1")
 
-modified = pd.DataFrame
-temp = pd.DataFrame
-
 # wycinanie potrzebnych kolumn
-modified = original.loc[:,
-           ['Temat', 'Lokalizacja', 'Data rozpoczêcia', 'Czas rozpoczêcia', 'Data zakoñczenia', 'Czas zakoñczenia']]
+modified = original.loc[:, ['Temat', 'Lokalizacja', 'Data rozpoczêcia', 'Czas rozpoczêcia', 'Data zakoñczenia', 'Czas zakoñczenia']]
 
-#region Pobieranie wierszy z innego pliku planu, np. innej grupy
+# region Pobieranie wierszy z innego pliku planu, np. innej grupy
 # moze sie przydac gdy trzeba bedzie pobierac plan z wiecej niz jednego pliku
 # Y6 = Y6original.loc[:,['Temat','Lokalizacja','Data rozpoczêcia','Czas rozpoczêcia','Data zakoñczenia','Czas zakoñczenia']]
 # Y6 = Y6[Y6['Temat'].str.contains("In¿ynieria oprogramowania \(L\)")]
-#endregion
+# endregion
 
 file_formatter = fileForm.FileFormatter(modified)
 
@@ -62,9 +56,9 @@ modified[column_name] = file_formatter.format_time_column(column_name, format_st
 
 # zmiana nazw kolumn
 modified.columns = ['Subject', 'Location', 'Start date', 'Start time', 'End date', 'End time']
-#endregion
+# endregion
 
-#region Zapis wybranych wierszy do plików
+# region Zapis wybranych wierszy do plików
 # zapis calosci do pliku
 modified.to_csv("Output_files\Wszystko.csv", index=False, encoding="ISO-8859-1")
 temp = modified
@@ -75,7 +69,7 @@ modified = temp[~temp['Subject'].str.contains("Jezyk obcy")]
 # dodanie zajęć z innego pliku
 # temp = temp.append(Y6, ignore_index = False)
 
-#poczatkowa liczba wierszy w pliku przed podziałem
+# poczatkowa liczba wierszy w pliku przed podziałem
 rows = len(temp.index)
 rowsSum = 0
 # filtrowanie kolumn zawierajacych (w)-wyklady i zapis do pliku
@@ -92,7 +86,7 @@ rowsSum += len(temp.index)
 temp = modified[modified['Subject'].str.contains("\(E\)|\(Zp\)|\(SO\)|\(Ep\)|\(Zal\)")]
 temp.to_csv('Output_files\Egzaminy_itp.csv', index=False, encoding="ISO-8859-1")
 rowsSum += len(temp.index)
-#endregion
+# endregion
 
 # suma kontrolna wierszy
 print("Zakończono formatowanie.")

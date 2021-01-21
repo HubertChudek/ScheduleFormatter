@@ -12,16 +12,15 @@ class FileDownloader:
     def __init__(self, download_directory):
         print(download_directory)
         self.options.add_experimental_option("prefs", {
-            #"download.default_directory": os.path.dirname(os.path.realpath(__file__)),
             "download.default_directory": download_directory,
             "download.prompt_for_download": False,
             "download.directory_upgrade": True,
             "safebrowsing.enabled": True
         })
-        #self.options.add_argument("--headless");
+        self.options.add_argument("--headless")
         self.driver = webdriver.Chrome(chrome_options=self.options)
 
-    def goTo(self, url):
+    def go_to(self, url):
         self.driver.get(url)
         sleep(2)
 
@@ -56,7 +55,7 @@ class FileDownloader:
             "/html/body/table/tbody/tr/td/table[2]/tbody/tr/td/div/div[3]/table/tbody/tr[3]/td[2]")
 
         month = datetime.now().month
-        if ((month <= 3 & month > 0) | (month >= 9 & month <= 12)):
+        if (month <= 3 & month > 0) | (month >= 9 & month <= 12):
             zimowy_btn.click()
         else:
             letni_btn.click()

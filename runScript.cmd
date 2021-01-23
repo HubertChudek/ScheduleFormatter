@@ -1,0 +1,2 @@
+python.exe src\WAT_Schedule_Formatting.py
+start Output_files

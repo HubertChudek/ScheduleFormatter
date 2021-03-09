@@ -54,7 +54,7 @@ class FileDownloader:
             "/html/body/table/tbody/tr/td/table[2]/tbody/tr/td/div/div[3]/table/tbody/tr[3]/td[2]")
 
         month = datetime.now().month
-        if (month <= 3 & month > 0) | (month >= 9 & month <= 12):
+        if ((month) <= 1 & (month > 0)) | ((month >= 9) & (month <= 12)):
             zimowy_btn.click()
         else:
             letni_btn.click()

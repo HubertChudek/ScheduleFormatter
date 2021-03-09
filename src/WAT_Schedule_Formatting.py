@@ -92,7 +92,7 @@ temp.to_csv('Output_files\Lab_i_cw.csv', index=False, encoding="ISO-8859-1")
 rowsSum += len(temp.index)
 
 # filtrowanie kolumn zawierajacych (E)- egzaminy itp. i zapis do pliku
-temp = modified[modified['Subject'].str.contains("\(E\)|\(Zp\)|\(SO\)|\(Ep\)|\(Zal\)")]
+temp = modified[modified['Subject'].str.contains("\(E\)|\(Zp\)|\(S\)|\(SO\)|\(Ep\)|\(Zal\)")]
 temp.to_csv('Output_files\Egzaminy_itp.csv', index=False, encoding="ISO-8859-1")
 rowsSum += len(temp.index)
 # endregion

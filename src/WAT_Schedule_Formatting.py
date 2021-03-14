@@ -31,10 +31,10 @@ print("Przefiltrowano pola.")
 
 print("Formatowanie pliku...")
 # region Formatowanie pól wg wzorca dla kalendarza Google
-original = pd.read_csv(filename, encoding="ISO-8859-1")
+original = pd.read_csv(filename, encoding="ANSI")
 
 # wycinanie potrzebnych kolumn
-modified = original.loc[:, ['Temat', 'Lokalizacja', 'Data rozpoczêcia', 'Czas rozpoczêcia', 'Data zakoñczenia', 'Czas zakoñczenia']]
+modified = original.loc[:, ['Temat', 'Lokalizacja', 'Data rozpoczęcia', 'Czas rozpoczęcia', 'Data zakończenia', 'Czas zakończenia']]
 
 # region Pobieranie wierszy z innego pliku planu, np. innej grupy
 # moze sie przydac gdy trzeba bedzie pobierac plan z wiecej niz jednego pliku
@@ -45,17 +45,17 @@ modified = original.loc[:, ['Temat', 'Lokalizacja', 'Data rozpoczêcia', 'Czas r
 file_formatter = fileForm.FileFormatter(modified)
 
 # zmiana formatu daty
-column_name = "Data rozpoczêcia"
+column_name = "Data rozpoczęcia"
 format_string = '%m/%d/%Y'
 modified[column_name] = file_formatter.format_data_column(column_name, format_string)
-column_name = "Data zakoñczenia"
+column_name = "Data zakończenia"
 modified[column_name] = file_formatter.format_data_column(column_name, format_string)
 
 # zmiana formatu czasu
-column_name = "Czas rozpoczêcia"
+column_name = "Czas rozpoczęcia"
 format_string = "%I:%M %p"
 modified[column_name] = file_formatter.format_time_column(column_name, format_string)
-column_name = "Czas zakoñczenia"
+column_name = "Czas zakończenia"
 modified[column_name] = file_formatter.format_time_column(column_name, format_string)
 
 # zmiana nazw kolumn
@@ -65,15 +65,15 @@ modified.columns = ['Subject', 'Location', 'Start date', 'Start time', 'End date
 # region Zapis wybranych wierszy do plików
 # zapis calosci do pliku
 try:
-    modified.to_csv("Output_files\Wszystko.csv", index=False, encoding="ISO-8859-1")
+    modified.to_csv("Output_files\Wszystko.csv", index=False, encoding="utf-8")
 except FileNotFoundError:
     os.mkdir("Output_files")
-    modified.to_csv("Output_files\Wszystko.csv", index=False, encoding="ISO-8859-1")
+    modified.to_csv("Output_files\Wszystko.csv", index=False, encoding="utf-8")
 
 temp = modified
 
 # usuwanie niepotrzebnych przedmiotów
-modified = temp[~temp['Subject'].str.contains("Jezyk obcy")]
+modified = temp[~temp['Subject'].str.contains("Język obcy")]
 
 # dodanie zajęć z innego pliku
 # temp = temp.append(Y6, ignore_index = False)
@@ -83,17 +83,17 @@ rows = len(temp.index)
 rowsSum = 0
 # filtrowanie kolumn zawierajacych (w)-wyklady i zapis do pliku
 temp = modified[modified['Subject'].str.contains("\(w\)")]
-temp.to_csv('Output_files\Wyklady.csv', index=False, encoding="ISO-8859-1")
+temp.to_csv('Output_files\Wyklady.csv', index=False, encoding="utf-8")
 rowsSum += len(temp.index)
 
 # filtrowanie kolumn zawierajacych (c) i (L)- cwiczenia i labo i zapis do pliku
 temp = modified[modified['Subject'].str.contains("\(L\)|\(c\)|\(p\)")]
-temp.to_csv('Output_files\Lab_i_cw.csv', index=False, encoding="ISO-8859-1")
+temp.to_csv('Output_files\Lab_i_cw.csv', index=False, encoding="utf-8")
 rowsSum += len(temp.index)
 
 # filtrowanie kolumn zawierajacych (E)- egzaminy itp. i zapis do pliku
 temp = modified[modified['Subject'].str.contains("\(E\)|\(Zp\)|\(S\)|\(SO\)|\(Ep\)|\(Zal\)")]
-temp.to_csv('Output_files\Egzaminy_itp.csv', index=False, encoding="ISO-8859-1")
+temp.to_csv('Output_files\Egzaminy_itp.csv', index=False, encoding="utf-8")
 rowsSum += len(temp.index)
 # endregion
 

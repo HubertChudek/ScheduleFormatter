@@ -74,27 +74,35 @@ temp = modified
 
 # usuwanie niepotrzebnych przedmiotów
 modified = temp[~temp['Subject'].str.contains("Język obcy")]
+modified = temp[~temp['Subject'].str.contains("Spotkanie organizacyjne")]
 
 # dodanie zajęć z innego pliku
 # temp = temp.append(Y6, ignore_index = False)
 
 # poczatkowa liczba wierszy w pliku przed podziałem
-rows = len(temp.index)
+rows = len(modified.index)
+print(rows)
 rowsSum = 0
 # filtrowanie kolumn zawierajacych (w)-wyklady i zapis do pliku
 temp = modified[modified['Subject'].str.contains("\(w\)")]
 temp.to_csv('Output_files\Wyklady.csv', index=False, encoding="utf-8")
 rowsSum += len(temp.index)
 
-# filtrowanie kolumn zawierajacych (c) i (L)- cwiczenia i labo i zapis do pliku
-temp = modified[modified['Subject'].str.contains("\(L\)|\(c\)|\(p\)")]
+# filtrowanie kolumn zawierajacych (ć) i (L)- cwiczenia i labo i zapis do pliku
+temp = modified[modified['Subject'].str.contains("\(L\)|\(ć\)|\(p\)")]
 temp.to_csv('Output_files\Lab_i_cw.csv', index=False, encoding="utf-8")
 rowsSum += len(temp.index)
 
 # filtrowanie kolumn zawierajacych (E)- egzaminy itp. i zapis do pliku
-temp = modified[modified['Subject'].str.contains("\(E\)|\(Zp\)|\(S\)|\(SO\)|\(Ep\)|\(Zal\)")]
-temp.to_csv('Output_files\Egzaminy_itp.csv', index=False, encoding="utf-8")
+temp = modified[modified['Subject'].str.contains("\(E\)|\(Zp\)|\(Ep\)|\(Zal\)")]
+temp.to_csv('Output_files\Egzaminy.csv', index=False, encoding="utf-8")
 rowsSum += len(temp.index)
+
+# filtrowanie kolumn zawierajacych (SO)- spotkania organizacyjne, seminaria itp. i zapis do pliku
+temp = modified[modified['Subject'].str.contains("\(S\)|\(SO\)|\(KN\)")]
+temp.to_csv('Output_files\Spot_org.csv', index=False, encoding="utf-8")
+rowsSum += len(temp.index)
+
 # endregion
 
 # suma kontrolna wierszy
